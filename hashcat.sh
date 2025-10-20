@@ -1,0 +1,1 @@
+hashcat -m 22000 -a 3 handsake.22000 '?l?l?l?l?l?l?l?l' --status -w 3

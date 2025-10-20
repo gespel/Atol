@@ -1,0 +1,9 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+1C:74:0D:AC:34:2E, 2025-10-20 20:58:36, 2025-10-20 20:58:53, 10, 130, WPA2, CCMP, PSK, -39,       65,      968,   0.  0.  0.  0,   9, ZYXEL-522, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+6E:33:10:7E:C1:30, 2025-10-20 20:58:39, 2025-10-20 20:58:53, -50,     1542, 1C:74:0D:AC:34:2E,ZYXEL-522
+70:C9:12:15:26:48, 2025-10-20 20:58:40, 2025-10-20 20:58:53, -67,      365, 1C:74:0D:AC:34:2E,
+D0:E1:40:97:3A:36, 2025-10-20 20:58:41, 2025-10-20 20:58:51,  -1,      340, 1C:74:0D:AC:34:2E,
+
