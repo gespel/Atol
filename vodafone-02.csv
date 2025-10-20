@@ -1,0 +1,10 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+8C:6A:8D:99:E5:50, 2025-10-20 22:09:42, 2025-10-20 22:13:26,  6, 260, WPA2, CCMP, PSK, -59,      571,      170,   0.  0.  0.  0,  13, Vodafone-E54C, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+00:1D:63:72:11:85, 2025-10-20 22:09:42, 2025-10-20 22:13:26, -82,      287, 8C:6A:8D:99:E5:50,
+AE:B0:3C:F9:C4:E6, 2025-10-20 22:09:51, 2025-10-20 22:13:12, -71,      139, 8C:6A:8D:99:E5:50,
+82:BE:A4:D7:24:3A, 2025-10-20 22:09:55, 2025-10-20 22:12:54, -75,      143, 8C:6A:8D:99:E5:50,
+38:9D:92:18:66:9F, 2025-10-20 22:10:13, 2025-10-20 22:13:18, -83,      138, 8C:6A:8D:99:E5:50,
+
